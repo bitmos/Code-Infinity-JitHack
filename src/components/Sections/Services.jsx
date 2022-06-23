@@ -12,16 +12,16 @@ import AddImage4 from "../../assets/img/add/4.png";
 
 export default function Services() {
   return (
-    <Wrapper id="services">
-      <div className="lightBg" style={{ padding: "50px 0" }}>
+    <Wrapper id="services" >
+      <div className="lightBg"  style={{padding: "30px 0"}}>
         <div className="container">
-          <ClientSlider />
+          <ClientSlider  />
         </div>
       </div>
       <div className="whiteBg" style={{ padding: "60px 0" }}>
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Our Awesome Services</h1>
+            <h2 className="font40 extraBold">Our Awesome Services</h2>
             <p className="font13">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
               <br />
