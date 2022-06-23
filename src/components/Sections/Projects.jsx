@@ -42,11 +42,7 @@ export default function Projects() {
                 img={ProjectImg1}
                 title="Prajwal A R"
                 text="Student working Towards Computer Science Engineering focused in Cyber Security and also an Aspiring Entrepreneur"
-<<<<<<< Updated upstream
-=======
-                url="www.google.com"
-                action={() => alert("clicked")}
->>>>>>> Stashed changes
+
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
