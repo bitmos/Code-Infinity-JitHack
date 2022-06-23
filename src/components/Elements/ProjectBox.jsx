@@ -1,7 +1,10 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 import React from "react";
 import styled from "styled-components";
 
-export default function ProjectBox({ img, title, text, action}) {
+
+export default function ProjectBox({ img, title, text, action,url}) {
   return (
     <Wrapper>
       <ImgBtn className="aniamte pointer" onClick={action ? () => action() : null}>
@@ -9,6 +12,7 @@ export default function ProjectBox({ img, title, text, action}) {
       </ImgBtn>
       <h3 className="font20 extraBold">{title}</h3>
       <p className="font13">{text}</p>
+      <h3 className="font13" ><FontAwesomeIcon icon={brands('github')} />{" "}{url} </h3>
     </Wrapper>
   );
 }
